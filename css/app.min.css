@@ -13590,7 +13590,7 @@ ul.jqtree-tree ul.jqtree_common {
 	content: "";
 	top: 0;
 	left: 0;
-	background:linear-gradient(to top,#04a310, #01072ac4);
+	background:linear-gradient(to bottom,#0f003e, #5257f3cc);
 	z-index: -1;
 	
 }
@@ -13647,12 +13647,38 @@ ul.jqtree-tree ul.jqtree_common {
 	content: "";
 	top: 0;
 	left: 0;
-	background:linear-gradient(to left,#21f358, #01072ac4);
+	background:#212327;
 	
 	z-index: -1;
 	
 }
-
+.header__logo>h1 {
+    line-height: 100%;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0;
+}
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4rem;
+    border-right: 1px solid #9696967d;
+    padding-right: 2rem;
+    color: white;
+}
+.header__logo .the-logo {
+    height: 50px;
+}
+.header, .header__logo>h1>a {
+    color: #FFF;
+}
+.font-12px {
+    font-size: 12px !important;
+}
+.header__logo img {
+    margin-right: 1rem;
+}
 @media only screen and (min-width: 1200px) {
 .content:not(.content--boxed):not(.content--full) {
     padding: 102px 30px 0 300px;
